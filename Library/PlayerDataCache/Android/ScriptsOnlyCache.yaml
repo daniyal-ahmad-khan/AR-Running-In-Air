@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - CameraController
+    - Coin
     - Events
     - PlayerController
     - PlayerManager
@@ -12,10 +14,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -55,6 +55,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -68,29 +70,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 11810}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 12238}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12826}
+      Script: {instanceID: 12462}
     - Class: 114
       Script: {instanceID: 12828}
     - Class: 114
-      Script: {instanceID: 12922}
+      Script: {instanceID: 12830}
     - Class: 114
-      Script: {instanceID: 13446}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13458}
+      Script: {instanceID: 13450}
     - Class: 114
-      Script: {instanceID: 13492}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 13844}
+      Script: {instanceID: 13496}
+    - Class: 114
+      Script: {instanceID: 13848}
+    - Class: 114
+      Script: {instanceID: 15854}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -122,6 +128,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Coin
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -442,7 +454,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: e59b17dc7760b82ffff862fa059f509c
+      Hash: cf55c6a68e32dc52e55d98aa9293a881
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerManager
@@ -572,7 +584,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a9e81b43411e0c054562e6f8895cc82b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Level1.unity
-  playerPath: E:/CG Softwares/unity3d/AndroidEndlessRunner/Endless2.apk
+  playerPath: E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/game.apk

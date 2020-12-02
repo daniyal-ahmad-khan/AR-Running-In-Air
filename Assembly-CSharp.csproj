@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c598ed81-2f93-ed50-4a32-de9315f0497d}</ProjectGuid>
+    <ProjectGuid>{67f29f5b-5f00-bfa3-219e-feae2d8c894f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,13 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\TileManager.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\SwipeManager.cs" />
+     <Compile Include="Assets\Scripts\isGa.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\isGa.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:/CG Softwares/unity3d/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -569,31 +572,31 @@
         <HintPath>E:/CG Softwares/unity3d/2020.1.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/CG Softwares/unity3d/AndroidEndlessRunner/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>E:/CG Softwares/unity3d/Projects/Running-In-Air/Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

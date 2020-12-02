@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject startingText;
     public static bool isGameStarted;
+    public static int numberOfCoins;
+    public Text coinsText;
 
     
     void Start()
@@ -16,6 +19,7 @@ public class PlayerManager : MonoBehaviour
         gameOver = false;
         Time.timeScale = 1;
         isGameStarted = false;
+        numberOfCoins = 0;
         
     }
 
@@ -27,6 +31,7 @@ public class PlayerManager : MonoBehaviour
                 Time.timeScale = 0;
                 gameOverPanel.SetActive(true);
             }
+        coinsText.text = "Score: " + numberOfCoins;
         if(SwipeManager.tap)
             {
                 isGameStarted = true;

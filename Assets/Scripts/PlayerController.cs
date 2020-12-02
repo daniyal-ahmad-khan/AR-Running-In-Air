@@ -99,6 +99,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Jump()
     {
+        FindObjectOfType<AudioManager>().PlaySound("Jump");
         direction.y = jumpForce;
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -106,10 +107,12 @@ public class PlayerController : MonoBehaviour
         if (hit.transform.tag=="Obstacle")
         {
             PlayerManager.gameOver = true;
+            FindObjectOfType<AudioManager>().PlaySound("GameOver");
         }
     }
     private IEnumerator Slide()
     {
+        FindObjectOfType<AudioManager>().PlaySound("Slide");
         isSliding = true;
         animator.SetBool("isSliding",true);
         controller.center = new Vector3(0,-0.3f,0);
