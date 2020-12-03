@@ -11,13 +11,12 @@ public class PlayerController : MonoBehaviour
     private int desiredLane = 1;
     public float laneDistance = 4;//distance between two lanes
     public float jumpForce;
-    public float Gravity = -20;
+    public float Gravity = -30;
     public Animator animator;
     public bool isGrounded;
     //public LayerMask groundLayer;
     //public Transform groundCheck;
     public float maxSpeed;
-    private bool isSliding=false;
 
     // Start is called before the first frame update
     void Start()
@@ -50,10 +49,7 @@ public class PlayerController : MonoBehaviour
         {
             direction.y += Gravity * Time.deltaTime;
         }
-        if(SwipeManager.swipeDown && !isSliding)
-        {
-            StartCoroutine(Slide());
-        }
+
         //inputs
         if (SwipeManager.swipeRight)
         {
@@ -110,17 +106,5 @@ public class PlayerController : MonoBehaviour
             FindObjectOfType<AudioManager>().PlaySound("GameOver");
         }
     }
-    private IEnumerator Slide()
-    {
-        FindObjectOfType<AudioManager>().PlaySound("Slide");
-        isSliding = true;
-        animator.SetBool("isSliding",true);
-        controller.center = new Vector3(0,-0.3f,0);
-        controller.height = 0.5f;
-        yield return new WaitForSeconds(1.3f);
-        controller.center = new Vector3(0,0,0);
-        controller.height = 2;
-        animator.SetBool("isSliding",false);
-        isSliding = false;
-    }
+
 }
