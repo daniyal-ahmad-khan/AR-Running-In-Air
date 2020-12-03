@@ -301,7 +301,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: -4565884009001823619, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
@@ -353,6 +353,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
   m_PrefabInstance: {fileID: 226690632}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &113049053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113049045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &116376974
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,11 +606,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000068481
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.34
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -621,6 +652,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5822821947120931875, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d01e4c74cb730e74599a7c3b0496f158, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
 --- !u!1 &247327689
@@ -1839,9 +1874,17 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
+      propertyPath: sounds.Array.data[2].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
       propertyPath: sounds.Array.data[5].clip
       value: 
       objectReference: {fileID: 8300000, guid: eaa7a298b82832a45acaa74891cd40b1, type: 3}
+    - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
+      propertyPath: sounds.Array.data[5].loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
       propertyPath: sounds.Array.data[5].name
       value: Button

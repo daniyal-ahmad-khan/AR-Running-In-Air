@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private int desiredLane = 1;
     public float laneDistance = 4;//distance between two lanes
     public float jumpForce;
-    public float Gravity = -30;
+    public float Gravity = -50;
     public Animator animator;
     public bool isGrounded;
     //public LayerMask groundLayer;
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isGrounded",controller.isGrounded);
         if (controller.isGrounded)
         {
-            //direction.y = -1;
+            //direction.y = 0;
             if (SwipeManager.swipeUp)
             {
                 Jump();
@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
             desiredLane++;
             if (desiredLane==3)
                 desiredLane = 2;
+            
         }
         if (SwipeManager.swipeLeft)
         {
@@ -76,23 +77,19 @@ public class PlayerController : MonoBehaviour
         }
         //transform.position = Vector3.Lerp(transform.position,targetPosition,800*Time.deltaTime);
         //controller.center = controller.center;
-        if (transform.position == targetPosition)
+        if (transform.position != targetPosition)
         {
-            return;
-        }
-        Vector3 diff = targetPosition - transform.position;
+         Vector3 diff = targetPosition - transform.position;
         Vector3 moveDir = diff.normalized * 25 * Time.deltaTime;
         if(moveDir.sqrMagnitude< diff.sqrMagnitude)
             controller.Move(moveDir);
         else
-            controller.Move(diff);
+            controller.Move(diff);           
+        }
+
+        controller.Move(direction*Time.deltaTime);
     }
-    void FixedUpdate()
-    {
-        if(!PlayerManager.isGameStarted)
-            return;
-        controller.Move(direction*Time.fixedDeltaTime);
-    }
+
     private void Jump()
     {
         FindObjectOfType<AudioManager>().PlaySound("Jump");
