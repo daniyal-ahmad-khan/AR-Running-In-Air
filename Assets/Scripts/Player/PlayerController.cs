@@ -26,12 +26,15 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if(!PlayerManager.isGameStarted)
             return;
         if(forwardSpeed < maxSpeed)
-        {
-            forwardSpeed += 0.1f*Time.deltaTime;
+        {   
+            if(PlayerManager.numberOfCoins%10 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
+            
+            
+            
         }
         animator.SetBool("isGameStarted",true);
         direction.z = forwardSpeed;
@@ -103,5 +106,7 @@ public class PlayerController : MonoBehaviour
             FindObjectOfType<AudioManager>().PlaySound("GameOver");
         }
     }
+
+    
 
 }

@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject startingText;
     public static bool isGameStarted;
     public static int numberOfCoins;
+    public static int numberOfSpecialCoins;
     public Text coinsText;
 
     
@@ -20,6 +21,7 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = 1;
         isGameStarted = false;
         numberOfCoins = 0;
+        numberOfSpecialCoins = 0;
         
     }
 
@@ -32,6 +34,7 @@ public class PlayerManager : MonoBehaviour
                 gameOverPanel.SetActive(true);
             }
         coinsText.text = "Score: " + numberOfCoins;
+        
         if(SwipeManager.tap)
             {
                 isGameStarted = true;

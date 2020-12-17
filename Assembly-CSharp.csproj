@@ -60,12 +60,14 @@
      <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\TileManager.cs" />
      <Compile Include="Assets\Scripts\Sound.cs" />
+     <Compile Include="Assets\Scripts\Transition.cs" />
      <Compile Include="Assets\Scripts\Player\CameraController.cs" />
      <Compile Include="Assets\Scripts\SwipeManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
      <Compile Include="Assets\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\Transition.cs" />
+     <Compile Include="Assets\Scripts\Barrel.cs" />
+     <Compile Include="Assets\Scripts\donut.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
