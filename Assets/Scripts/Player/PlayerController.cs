@@ -14,26 +14,26 @@ public class PlayerController : MonoBehaviour
     public float Gravity = -50;
     public Animator animator;
     public bool isGrounded;
+    bool update_once = false;
+    Vector3 base_pos;
     //public LayerMask groundLayer;
     //public Transform groundCheck;
     public float maxSpeed;
 
     // Start is called before the first frame update
     void Start()
-    {
+    { 
         controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
-    {   
+    {     
         if(!PlayerManager.isGameStarted)
             return;
         if(forwardSpeed < maxSpeed)
         {   
             if(PlayerManager.numberOfCoins%10 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
-            
-            
             
         }
         animator.SetBool("isGameStarted",true);
@@ -91,6 +91,8 @@ public class PlayerController : MonoBehaviour
         }
 
         controller.Move(direction*Time.deltaTime);
+
+        base_pos = transform.position;
     }
 
     private void Jump()
@@ -100,7 +102,13 @@ public class PlayerController : MonoBehaviour
     }
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.transform.tag=="Obstacle")
+        if (transform.position.y < -1f){
+
+            PlayerManager.gameOver = true;
+            FindObjectOfType<AudioManager>().PlaySound("GameOver");
+
+        }
+        else if (hit.transform.tag=="Obstacle")
         {
             PlayerManager.gameOver = true;
             FindObjectOfType<AudioManager>().PlaySound("GameOver");

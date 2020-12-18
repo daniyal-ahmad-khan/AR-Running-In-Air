@@ -424,9 +424,11 @@ MonoBehaviour:
   - {fileID: 3412326343193267538, guid: dec760b040ede6044bce8d55e0d1b8bf, type: 3}
   - {fileID: 3412326343193267538, guid: a3a829ecc416b3e4282cdf8bd80a383a, type: 3}
   - {fileID: 3412326343193267538, guid: bebc6f59ff622144da0915fba6585df7, type: 3}
-  zSpawn: 0
+  zSpawn: 5
   tileLength: 30
   numberOfTiles: 5
+  offset: 10
+  tile_spawn_offset: 2
   playerTransform: {fileID: 113049052}
 --- !u!4 &116376976
 Transform:
@@ -615,7 +617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.15
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4fba228a8ec430e44a45c2025b402df6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -697,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -30, y: -24.14}
+  m_AnchoredPosition: {x: -30.00003, y: -24.14}
   m_SizeDelta: {x: 253.1, y: 83.36}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &247327691
@@ -961,7 +963,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.8883e-41, z: 0, w: 9.403955e-38}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
