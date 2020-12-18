@@ -414,11 +414,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefabs:
-  - {fileID: 3412326343193267538, guid: bebc6f59ff622144da0915fba6585df7, type: 3}
+  - {fileID: 3412326343193267538, guid: 59e5688758e1e664b945a68c30959ddc, type: 3}
   - {fileID: 8183161891115614321, guid: dd37994adc7c0284eb232acb05cdb7a6, type: 3}
   - {fileID: 8630095815868539791, guid: 4b0b178830db94d41bef7fac97af46f1, type: 3}
   - {fileID: 6413112682839481811, guid: a1f3d895d69962a4b889caabde16aeb9, type: 3}
+  - {fileID: 3529533160014674327, guid: 9da3abc044ddc3e4c948eabb353ba8a5, type: 3}
   - {fileID: 6582028121983813032, guid: b5bd2c61567c4de4cb1f4be3e57d3cde, type: 3}
+  - {fileID: 3412326343193267538, guid: 384ccb34813b8e245b806ce3bda02b5d, type: 3}
+  - {fileID: 3412326343193267538, guid: dec760b040ede6044bce8d55e0d1b8bf, type: 3}
+  - {fileID: 3412326343193267538, guid: a3a829ecc416b3e4282cdf8bd80a383a, type: 3}
+  - {fileID: 3412326343193267538, guid: bebc6f59ff622144da0915fba6585df7, type: 3}
   zSpawn: 0
   tileLength: 30
   numberOfTiles: 5
@@ -956,7 +961,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.2566e-41, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 3.8883e-41, z: 0, w: 9.403955e-38}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1586,6 +1591,7 @@ MonoBehaviour:
   gameOverPanel: {fileID: 1676533296}
   startingText: {fileID: 14805491}
   coinsText: {fileID: 247327691}
+  donutText: {fileID: 1810053902}
 --- !u!4 &1952723519
 Transform:
   m_ObjectHideFlags: 0

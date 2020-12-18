@@ -13,6 +13,7 @@ public class PlayerManager : MonoBehaviour
     public static int numberOfCoins;
     public static int numberOfSpecialCoins;
     public Text coinsText;
+    public Text donutText;
 
     
     void Start()
@@ -34,6 +35,8 @@ public class PlayerManager : MonoBehaviour
                 gameOverPanel.SetActive(true);
             }
         coinsText.text = "Score: " + numberOfCoins;
+        donutText.text = "Donuts: " + numberOfSpecialCoins;
+
         
         if(SwipeManager.tap)
             {

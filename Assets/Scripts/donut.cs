@@ -6,7 +6,7 @@ public class donut : MonoBehaviour
 {
  void Update()
     {
-        transform.Rotate(60 * Time.deltaTime,0,20 * Time.deltaTime);
+        //transform.Rotate(0,0,20 * Time.deltaTime);
     }
     private void OnTriggerEnter(Collider other)
     {
