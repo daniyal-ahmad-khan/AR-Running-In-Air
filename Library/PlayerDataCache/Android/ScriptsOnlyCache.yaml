@@ -150,25 +150,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14470}
     - Class: 114
+      Script: {instanceID: 14558}
+    - Class: 114
       Script: {instanceID: 14560}
     - Class: 114
-      Script: {instanceID: 14562}
+      Script: {instanceID: 14710}
     - Class: 114
-      Script: {instanceID: 14712}
+      Script: {instanceID: 14742}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 15414}
     - Class: 114
-      Script: {instanceID: 15416}
+      Script: {instanceID: 15880}
     - Class: 114
-      Script: {instanceID: 15884}
+      Script: {instanceID: 16000}
     - Class: 114
-      Script: {instanceID: 16004}
+      Script: {instanceID: 16172}
     - Class: 114
-      Script: {instanceID: 16176}
+      Script: {instanceID: 16818}
     - Class: 114
-      Script: {instanceID: 16822}
-    - Class: 114
-      Script: {instanceID: 16946}
+      Script: {instanceID: 16942}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -271,55 +271,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14372}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14742}
     - Class: 114
-      Script: {instanceID: 14772}
+      Script: {instanceID: 14770}
     - Class: 114
-      Script: {instanceID: 15166}
+      Script: {instanceID: 15164}
     - Class: 114
-      Script: {instanceID: 15234}
+      Script: {instanceID: 15232}
     - Class: 114
-      Script: {instanceID: 15242}
+      Script: {instanceID: 15240}
     - Class: 114
-      Script: {instanceID: 15264}
+      Script: {instanceID: 15262}
     - Class: 114
-      Script: {instanceID: 15272}
+      Script: {instanceID: 15270}
     - Class: 114
-      Script: {instanceID: 15430}
+      Script: {instanceID: 15428}
     - Class: 114
-      Script: {instanceID: 15470}
+      Script: {instanceID: 15466}
     - Class: 114
-      Script: {instanceID: 15480}
+      Script: {instanceID: 15476}
     - Class: 114
-      Script: {instanceID: 15744}
+      Script: {instanceID: 15740}
     - Class: 114
-      Script: {instanceID: 15886}
+      Script: {instanceID: 15882}
     - Class: 114
-      Script: {instanceID: 15978}
+      Script: {instanceID: 15974}
     - Class: 114
-      Script: {instanceID: 16290}
+      Script: {instanceID: 16286}
     - Class: 114
-      Script: {instanceID: 16342}
+      Script: {instanceID: 16338}
     - Class: 114
-      Script: {instanceID: 16500}
+      Script: {instanceID: 16496}
     - Class: 114
-      Script: {instanceID: 16550}
+      Script: {instanceID: 16546}
     - Class: 114
-      Script: {instanceID: 16592}
+      Script: {instanceID: 16588}
     - Class: 114
-      Script: {instanceID: 16784}
+      Script: {instanceID: 16780}
     - Class: 114
-      Script: {instanceID: 16786}
+      Script: {instanceID: 16782}
     - Class: 114
-      Script: {instanceID: 16822}
+      Script: {instanceID: 16818}
     - Class: 114
-      Script: {instanceID: 16856}
+      Script: {instanceID: 16852}
     - Class: 114
-      Script: {instanceID: 16898}
+      Script: {instanceID: 16894}
     - Class: 114
-      Script: {instanceID: 17006}
+      Script: {instanceID: 17002}
     - Class: 114
-      Script: {instanceID: 17014}
+      Script: {instanceID: 17010}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1817,4 +1817,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level1.unity
-  playerPath: E:/Projects/Unity/AR-Running-In-Air/final.apk
+  playerPath: E:/Projects/Unity/AR-Running-In-Air/finally_final.apk
