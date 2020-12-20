@@ -81,6 +81,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3412326343193267539}
     m_Modifications:
+    - target: {fileID: 7571520136138819190, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5737b2a2145f48246a0d68aca5630fd1, type: 2}
+    - target: {fileID: 7571520136138819190, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8220068786941339555, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
       propertyPath: m_Name
       value: Wheel
@@ -157,6 +165,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3412326343193267539}
     m_Modifications:
+    - target: {fileID: 7571520136138819190, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a50e1b06babb4e64b861e9e6bc5a33ad, type: 2}
+    - target: {fileID: 7571520136138819190, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8220068786941339555, guid: e696a24bfd5275e4ab6861ec83462166, type: 3}
       propertyPath: m_Name
       value: Wheel (1)
@@ -280,7 +296,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 016c89d88153be24b910244999f9b99e, type: 2}
+      objectReference: {fileID: 2100000, guid: 207c6ced7570dfa47b0d684f088d6e6c, type: 2}
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -288,7 +304,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 0f3edc28dc9fb164099a272fe7c85fb2, type: 2}
+      objectReference: {fileID: 2100000, guid: 3c6c8860d9c763b4b83d64fe13c406ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Name
       value: Road

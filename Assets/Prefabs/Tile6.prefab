@@ -60,9 +60,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 016c89d88153be24b910244999f9b99e, type: 2}
+  - {fileID: 2100000, guid: 207c6ced7570dfa47b0d684f088d6e6c, type: 2}
   - {fileID: 2100000, guid: 141bd16bce3119d4ebdd7e3124d64a05, type: 2}
-  - {fileID: 2100000, guid: 0f3edc28dc9fb164099a272fe7c85fb2, type: 2}
+  - {fileID: 2100000, guid: 3c6c8860d9c763b4b83d64fe13c406ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road_barrier_concrete
       objectReference: {fileID: 0}
+    - target: {fileID: 6637927769052093658, guid: c2a63a8c78710e84b981a2d89f0756d2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1cb88bcd5fd39a444a8eaeb672b588be, type: 2}
     - target: {fileID: 8248668132790098453, guid: c2a63a8c78710e84b981a2d89f0756d2, type: 3}
       propertyPath: m_RootOrder
       value: 2

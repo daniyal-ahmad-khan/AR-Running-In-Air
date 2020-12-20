@@ -57,6 +57,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3412326343193267539}
     m_Modifications:
+    - target: {fileID: 5282312030353388743, guid: f0409417ec27ae54fa420298676620e2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1cb88bcd5fd39a444a8eaeb672b588be, type: 2}
     - target: {fileID: 5868855255737712667, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_Name
       value: road_barrier_01 (2)
@@ -79,7 +83,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7433478270722028040, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1
+      value: -2.59
       objectReference: {fileID: 0}
     - target: {fileID: 7433478270722028040, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -179,6 +183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6003656424855945173, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fa69f72f41417854cab1c22d84581efd, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
 --- !u!4 &7027323076158391894 stripped
@@ -240,7 +248,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 016c89d88153be24b910244999f9b99e, type: 2}
+      objectReference: {fileID: 2100000, guid: 207c6ced7570dfa47b0d684f088d6e6c, type: 2}
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -248,7 +256,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 0f3edc28dc9fb164099a272fe7c85fb2, type: 2}
+      objectReference: {fileID: 2100000, guid: 3c6c8860d9c763b4b83d64fe13c406ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 69eb8123b845f604f8be296c7b86c23b, type: 3}
       propertyPath: m_Name
       value: Road
@@ -320,6 +328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6003656424855945173, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 244b27ac404eb314b925fa45909d0f54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
 --- !u!4 &8310123334591734846 stripped
@@ -382,6 +394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6003656424855945173, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 416d15cd169c5a0468b8346abad16527, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
 --- !u!4 &2486311544406298693 stripped
@@ -444,6 +460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 6003656424855945173, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 244b27ac404eb314b925fa45909d0f54, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1cc78f0c001f524d95fc46b4c058b3a, type: 3}
 --- !u!4 &3203359407315713122 stripped
@@ -458,6 +478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3412326343193267539}
     m_Modifications:
+    - target: {fileID: 5282312030353388743, guid: f0409417ec27ae54fa420298676620e2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9080663e19e6c1746956add261632240, type: 2}
     - target: {fileID: 5868855255737712667, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_Name
       value: road_barrier_01
@@ -480,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7433478270722028040, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.94
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 7433478270722028040, guid: f0409417ec27ae54fa420298676620e2, type: 3}
       propertyPath: m_LocalPosition.y
