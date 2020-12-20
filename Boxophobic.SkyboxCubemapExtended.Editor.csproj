@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Editor\SkyboxExtendedWindows.cs" />
-     <Compile Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Editor\SkyboxExtendedHub.cs" />
      <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Editor\Boxophobic.SkyboxCubemapExtended.Editor.asmdef" />
  <Reference Include="UnityEditor.UI">
  <HintPath>E:/Projects/Unity/AR-Running-In-Air/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

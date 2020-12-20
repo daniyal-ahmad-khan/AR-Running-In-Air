@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
             return;
         if(forwardSpeed < maxSpeed)
         {   
-            if(PlayerManager.numberOfCoins%5 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
+            if(PlayerManager.numberOfCoins%7 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
             
         }
         animator.SetBool("isGameStarted",true);

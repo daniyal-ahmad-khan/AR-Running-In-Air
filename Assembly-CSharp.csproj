@@ -812,10 +812,6 @@
       <Project>{D09F3751-729F-6DD0-B2BC-63E9B32DEF35}</Project>
       <Name>Boxophobic.Utils.Scripts</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.SkyboxCubemapExtended.Editor.csproj">
-      <Project>{68C94D21-E487-0EB7-1533-2CD91D2B08D5}</Project>
-      <Name>Boxophobic.SkyboxCubemapExtended.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
       <Project>{AEF63525-51A5-9AC0-9365-02E09AD3E047}</Project>
       <Name>Boxophobic.Utils.Editor</Name>

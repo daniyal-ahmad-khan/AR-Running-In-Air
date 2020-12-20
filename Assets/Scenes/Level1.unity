@@ -1319,7 +1319,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -2194,6 +2194,10 @@ PrefabInstance:
       propertyPath: sounds.Array.data[0].clip
       value: 
       objectReference: {fileID: 8300000, guid: ff375fbfeb7407c49b4d2db4d85bec1c, type: 3}
+    - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3400535553268395547, guid: 11aa752c156f1e64d833568bf584d606, type: 3}
       propertyPath: sounds.Array.data[2].loop
       value: 1
