@@ -1,36 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0BB53F4F-6A82-ABE9-42C2-B7ADD92C2876}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4f3fb50b-826a-e9ab-42c2-b7add92c2876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{31E80B3E-49F3-E47A-64DB-87E3BC7945BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{3e0be831-f349-7ae4-64db-87e3bc7945bb}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{88AED150-B3A4-61E1-1EC9-1E690780840E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{603456e4-319d-9620-0d3b-1bc6bccf1444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{E4563460-9D31-2096-0D3B-1BC6BCCF1444}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{50d1ae88-a4b3-e161-1ec9-1e690780840e}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BB53F4F-6A82-ABE9-42C2-B7ADD92C2876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BB53F4F-6A82-ABE9-42C2-B7ADD92C2876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BB53F4F-6A82-ABE9-42C2-B7ADD92C2876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BB53F4F-6A82-ABE9-42C2-B7ADD92C2876}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31E80B3E-49F3-E47A-64DB-87E3BC7945BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31E80B3E-49F3-E47A-64DB-87E3BC7945BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31E80B3E-49F3-E47A-64DB-87E3BC7945BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31E80B3E-49F3-E47A-64DB-87E3BC7945BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88AED150-B3A4-61E1-1EC9-1E690780840E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88AED150-B3A4-61E1-1EC9-1E690780840E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88AED150-B3A4-61E1-1EC9-1E690780840E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88AED150-B3A4-61E1-1EC9-1E690780840E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4563460-9D31-2096-0D3B-1BC6BCCF1444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4563460-9D31-2096-0D3B-1BC6BCCF1444}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4563460-9D31-2096-0D3B-1BC6BCCF1444}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4563460-9D31-2096-0D3B-1BC6BCCF1444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4f3fb50b-826a-e9ab-42c2-b7add92c2876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4f3fb50b-826a-e9ab-42c2-b7add92c2876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3e0be831-f349-7ae4-64db-87e3bc7945bb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3e0be831-f349-7ae4-64db-87e3bc7945bb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603456e4-319d-9620-0d3b-1bc6bccf1444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603456e4-319d-9620-0d3b-1bc6bccf1444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50d1ae88-a4b3-e161-1ec9-1e690780840e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50d1ae88-a4b3-e161-1ec9-1e690780840e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
