@@ -1,0 +1,19 @@
+{
+    "name": "Boxophobic.SkyboxCubemapExtended.Editor",
+    "references": [
+        "Boxophobic.Utils.Editor",
+        "Boxophobic.Utils.Scripts"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

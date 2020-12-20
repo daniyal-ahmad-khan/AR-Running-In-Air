@@ -11,14 +11,14 @@ public class BarrelMov : MonoBehaviour
     void Start(){
         newPos = new Vector3(barrelSpeed*Time.deltaTime,0, 0);
     }
-    void Update()
+    void FixedUpdate()
     {   
         
         if(transform.position.x >= 3.0f)
         {
             // newPos = new Vector3(0,0,0);
             newPos = -newPos;
-            transform.Rotate(20*Time.deltaTime,0,0);
+            
         }
         else if(transform.position.x <= -3.0f)
         {

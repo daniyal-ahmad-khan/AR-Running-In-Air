@@ -38,11 +38,12 @@ public class PlayerManager : MonoBehaviour
         donutText.text = "Donuts: " + numberOfSpecialCoins;
 
         
-        if(SwipeManager.tap)
-            {
-                isGameStarted = true;
-                Destroy(startingText);
-            }
+        // if(SwipeManager.tap)
+        //     {
+        //         isGameStarted = true;
+        //         Destroy(startingText);
+        //     }
+        if (isGameStarted)Destroy(startingText);
         
     }
 }

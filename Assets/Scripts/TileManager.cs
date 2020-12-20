@@ -43,7 +43,7 @@ public class TileManager : MonoBehaviour
         if (tilePrefabs[tileIndex].ToString() == PreviousTile.ToString()) SpawnTile(Random.Range(0, tilePrefabs.Length));
         GameObject go = Instantiate(tilePrefabs[tileIndex],transform.forward * (zSpawn + offset), transform.rotation);
         activeTiles.Add(go);
-        if(PlayerManager.numberOfSpecialCoins >= 5)zSpawn += tileLength + tile_spawn_offset;
+        if(PlayerManager.numberOfSpecialCoins >= 1)zSpawn += tileLength + tile_spawn_offset;
         else zSpawn += tileLength;
 
     }

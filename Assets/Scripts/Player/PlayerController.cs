@@ -14,7 +14,6 @@ public class PlayerController : MonoBehaviour
     public float Gravity = -50;
     public Animator animator;
     public bool isGrounded;
-    bool update_once = false;
     Vector3 base_pos;
     //public LayerMask groundLayer;
     //public Transform groundCheck;
@@ -33,7 +32,7 @@ public class PlayerController : MonoBehaviour
             return;
         if(forwardSpeed < maxSpeed)
         {   
-            if(PlayerManager.numberOfCoins%10 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
+            if(PlayerManager.numberOfCoins%5 == 0 && PlayerManager.numberOfCoins !=0)forwardSpeed += 2*Time.deltaTime;
             
         }
         animator.SetBool("isGameStarted",true);
