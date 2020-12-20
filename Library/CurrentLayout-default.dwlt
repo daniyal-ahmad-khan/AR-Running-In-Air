@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1117
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 271}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 104
+  controlID: 66
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -146,11 +146,11 @@ MonoBehaviour:
     height: 1067
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 11}
-  m_Selected: 1
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 240, y: 400, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 240, y: 400, z: -0.000006599261}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -434,9 +434,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.30508295, y: -0.06649954, z: 0.021360867, w: -0.949761}
   m_Size:
-    m_Target: 10
+    m_Target: 466.47617
     speed: 2
-    m_Value: 10
+    m_Value: 466.47617
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -489,9 +489,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6ab2fbff
-      m_LastClickedID: -282006
-      m_ExpandedIDs: 6ab2fbff6cb2fbff7eb4fbffe887fcfffc69fdff06d5fdff3cdafdffc2e2fdff8aecfdff9ceffdffaef2fdffc0f5fdffd2f8fdff72fdfdff8400feff9603feffa806feffac09feffbe0cfeffd00ffeffd412feffc618feffb88efeffa408ffffac08ffff3a0bffffd8d5ffff040000003e4f0000a8b30000b4c2000098c60000081d0100
+      m_SelectedIDs: f87f0000
+      m_LastClickedID: 32760
+      m_ExpandedIDs: 4410ffffbe10ffffce12ffffc850ffffb858ffff76f5ffff32fbffff34fbffffe84e00003a4f000058700000ce700000f2700000c07f0000f87f000012800000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -553,21 +553,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/#NVJOB Alpha Flashing UI/Example Scenes/Scenes
+    - Assets/Scenes
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/#NVJOB Alpha Flashing UI/Example Scenes/Scenes
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Projects\Unity\AR-Running-In-Air
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a2190100
-    m_LastClickedID: 72098
-    m_ExpandedIDs: 0000000086530000885300008a5300008e53000092530000945300009653000098530000a6530000f4b0000006b1000058b1000062b1000064b100008cb1000096b10000da190100e4190100
+    m_SelectedIDs: 94470000
+    m_LastClickedID: 18324
+    m_ExpandedIDs: 0000000036470000384700003a4700003c4700003e47000040470000424700004447000046470000484700004a4700004c4700004e47000050470000524700005447000080470000944700009c470000a0470000a44700009c750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,7 +595,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086530000885300008a5300008c5300008e5300009053000092530000945300009653000098530000
+    m_ExpandedIDs: 0000000036470000384700003a4700003c4700003e47000040470000424700004447000046470000484700004a4700004c4700004e470000504700005247000054470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
